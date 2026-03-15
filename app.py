@@ -4,7 +4,7 @@ from PIL import Image
 
 # 1. AI Studio API 설정
 genai.configure(api_key="AIzaSyBQ3TeJLt6yXo9nIYf9NhY9xUzFWtYVs3k")
-model = genai.GenerativeModel('gemini-1.5-flash') # 영수증 사진 분석용
+model = genai.GenerativeModel('gemini-1.5-flash-latest') # 영수증 사진 분석용
 
 # 2. 화면 구성
 st.set_page_config(page_title="영수증 점성술", page_icon="🔮")
